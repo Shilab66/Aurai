@@ -94,9 +94,7 @@
             } else if(tries < 3){
                 print("Try again")
             } else {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-                    print("Done")
-                }
+                print("Done")
             }
         }
     }
